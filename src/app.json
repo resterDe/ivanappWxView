@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/user/main",
+    "pages/info/main",
+    "pages/forward/main",
+    "pages/order/main",
+    "pages/xuzhi/main",
+    "pages/xieyi/main",
+    "pages/fankui/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "小凡摄影",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "static/images/sy.png",
+        "iconPath": "static/images/sy-active.png",
+        "pagePath": "pages/index/main",
+        "text": "小凡"
+      },
+      {
+        "selectedIconPath": "static/images/my.png",
+        "iconPath": "static/images/my-active.png",
+        "pagePath": "pages/user/main",
+        "text": "我的"
+      }
+    ]
+  }
+}
